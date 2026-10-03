@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO and performance -->
+    <meta name="description" content="A responsive and accessible web development website.">
+
+    <title>Accessible Web Design</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <a href="#home" class="logo" aria-label="WebDesign Home">
+                WebDesign
+            </a>
+
+            <!-- Navigation -->
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Main content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <h1 id="hero-title">Create Better Web Experiences</h1>
+
+                <p>
+                    We create fast, responsive and accessible websites
+                    for everyone.
+                </p>
+
+                <a href="#services" class="button">
+                    Explore Services
+                </a>
+            </div>
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about" class="section" aria-labelledby="about-title">
+            <div class="container">
+
+                <h2 id="about-title">About Us</h2>
+
+                <p>
+                    Our goal is to create websites that are simple,
+                    responsive, accessible and easy to use on different devices.
+                </p>
+
+                <div class="features">
+
+                    <article class="feature-card">
+                        <h3>HTML5</h3>
+                        <p>
+                            Semantic HTML provides a clear structure
+                            for users and screen readers.
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <h3>CSS3</h3>
+                        <p>
+                            Clean and responsive CSS creates a better
+                            experience on all screen sizes.
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <h3>Accessibility</h3>
+                        <p>
+                            Accessible design helps more people use
+                            websites comfortably.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Services Section -->
+        <section id="services" class="section services" aria-labelledby="services-title">
+
+            <div class="container">
+
+                <h2 id="services-title">Our Services</h2>
+
+                <div class="service-grid">
+
+                    <article class="service-card">
+                        <h3>Web Development</h3>
+                        <p>
+                            Modern and responsive websites using
+                            clean HTML and CSS.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <h3>Responsive Design</h3>
+                        <p>
+                            Websites that work properly on desktop,
+                            tablet and mobile devices.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <h3>Accessibility</h3>
+                        <p>
+                            User-friendly websites designed for
+                            people with different abilities.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="section" aria-labelledby="contact-title">
+
+            <div class="container">
+
+                <h2 id="contact-title">Contact Us</h2>
+
+                <form class="contact-form" action="#" method="post">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" autocomplete="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="button">
+                        Send Message
+                    </button>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>
+                &copy; 2026 WebDesign. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
